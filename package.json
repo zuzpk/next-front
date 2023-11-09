@@ -1,0 +1,21 @@
+{
+  "name": "next-front",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev -p 2001",
+    "start": "next start -p 2001",
+    "build": "next build",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@zuzjs/ui": "*",
+    "next": "14.0.1",
+    "react": "^18",
+    "react-dom": "^18"
+  },
+  "devDependencies": {
+    "eslint": "^8",
+    "eslint-config-next": "14.0.1"
+  }
+}
