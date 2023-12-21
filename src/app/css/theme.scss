@@ -1,0 +1,20 @@
+:root{    
+    --primary: #07a067;
+    --primary-hover: #10ba7c;
+    --radius: 5px;
+}
+/* LIGHT THEME */
+@media (prefers-color-scheme: light) {:root{
+    --body: #e6eaf2;
+    --content: #fff;
+    --text: #111;
+    --input: #eee;
+}}
+
+/* DARK THEME */
+@media (prefers-color-scheme: dark) {:root{
+    --body: #222;
+    --content: #444;
+    --text: #dbdbdb;
+    --input: #323232;
+}}
